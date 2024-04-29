@@ -271,7 +271,9 @@ header {
      /* height: 70px; */
      width:150px;
 }
-
+header .social_icon li.active a{
+     color: black !important;
+}
 ul.social_icon {
      /* float: right; */
      padding-top: 6px;
