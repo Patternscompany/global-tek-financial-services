@@ -255,7 +255,7 @@ header
 ---------------------------------------------------------------------*/
 
 header {
-     background: #0f132d;
+     background: green;
      width: 100%;
      padding: 22px 30px;
      height: auto;
@@ -273,7 +273,7 @@ header {
 }
 
 ul.social_icon {
-     float: right;
+     /* float: right; */
      padding-top: 6px;
 }
 
@@ -568,7 +568,8 @@ ul.email li i {
      text-align: center;
      font-weight: 500;
      transition: ease-in all 0.5s;
-     border: #ffffff solid 2px;
+     border: blue solid 2px;
+     background-color: blue;
 }
 
 .read_more:hover {
@@ -625,7 +626,7 @@ ul.email li i {
 }
 
 .padi {
-     padding: 20px 15px 15px 15px;
+     padding: 20px 15px  0px 15px;
 }
 
 .usd {

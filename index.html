@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- basic -->
     <meta charset="utf-8">
@@ -29,7 +30,7 @@
 <body class="main-layout">
     <!-- loader  -->
     <div class="loader_bg">
-        <div class="loader"><img src="images/loading.gif" alt=""/></div>
+        <div class="loader"><img src="images/loading.gif" alt="" /></div>
     </div>
     <!-- end loader -->
     <div id="mySidepanel" class="sidepanel">
@@ -37,33 +38,49 @@
         <a class="active" href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="services.html">Services</a>
-        
+
         <a href="contact.html">Contact</a>
     </div>
     <!-- header -->
+
+
+ 
     <header>
-        <!-- header inner -->
+      
         <div class="head-top">
             <div class="container-fluid">
                 <div class="row d_flex">
-                    <div class="col-sm-3">
+                    <div class="col-sm-3 col-lg-4">
                         <div class="logo">
-                            <a href="index.html"><img class="lo" src="images/WhatsApp Image 2024-04-29 at 7.09.15 PM (1).jpeg" style="object-fit: scale-down;"/></a>
+                            <a href="index.html"><img class="lo"
+                                    src="images/WhatsApp Image 2024-04-29 at 7.09.15 PM (1).jpeg"
+                                    style="object-fit: scale-down;" /></a>
                         </div>
                     </div>
-                    <div class="col-sm-5">
+                    <div class="col-sm-5 col-lg-4">
+                        <ul class="social_icon text_align_right d_none">
+                            <li class="active"> <a href="/">Home</a></li>
+                            <li> <a href="about.html">About</a></li>
+                            <li> <a href="services.html">Services</a></li>
+                            <li> <a href="contact.html">Contact</a>
+                            </li>
+                          
+                        </ul>
+                    </div>
+                    <div class="col-sm-5 col-lg-4">
                         <ul class="social_icon text_align_right d_none">
                             <li> <a href="Javascript:void(0)"><i class="fa fa-facebook-f"></i></a></li>
                             <li> <a href="Javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
                             <li> <a href="Javascript:void(0)"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                            <li> <a href="Javascript:void(0)"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                            <li> <a href="Javascript:void(0)"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                            <li> <a href="Javascript:void(0)"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            </li>
+                            <li> <a href="Javascript:void(0)"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                            </li>
                         </ul>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-4 menu">
                         <ul class="email text_align_right">
-                            <li class="d_none"><a href="Javascript:void(0)"><i class="fa fa-user" aria-hidden="true"></i></a></li>
-                            <li class="d_none"> <a href="Javascript:void(0)"><i class="fa fa-search" style="cursor: pointer;" aria-hidden="true"></i></a> </li>
+                           
                             <li>
                                 <button class="openbtn" onclick="openNav()"><img src="images/menu_btn.png"></button>
                             </li>
@@ -75,7 +92,7 @@
     </header>
 
 
-<html>
+   
     <!-- end header -->
     <!-- start slider section -->
     <div id="top_section" class="banner_main p-0 m-0">
@@ -83,33 +100,26 @@
             <div class="row">
                 <div class="col-md-12 p-0">
                     <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#myCarousel" data-slide-to="1"></li>
-                            <li data-target="#myCarousel" data-slide-to="2"></li>
-                        </ol>
-                       
-                                            <div class="col-md-12 col-lg-12 p-0">
-                                                <div class="con_img">
-                                                    <figure><img class="img_responsive" src="images/GettyImages-509615012-1.webp" alt="#" /></figure>
-                                                </div>
-                                            </div>
-                                            <!-- <div class="col-md-6">
-                                                <div class="bluid">
-                                                    <h1>Progress<br> Your Money Success</h1>
-                                                    <p> Content focused on analyzing financial markets, including stocks, bonds, 
-                                                        commodities, currencies, and cryptocurrencies. This may include fundamental 
-                                                        analysis, technical analysis, market commentary, and predictions about future 
-                                                        market movements.
-                                                    </p> -->
-                                                    <!-- <a class="read_more" href="Javascript:void(0)">Read More </a><a class="read_more" href="Javascript:void(0)">Get A Quote </a>
-                                                </div> -->
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                        
+
+                        <div class="col-md-12 col-lg-12 p-0" style="height: 100vh;">
+                            <div class="con_img">
+                                <img class="img_responsive w-100 h-100" src="images/hero1.jpg" alt="#" />
+                               
                             </div>
-                             
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<style>
+    .menu{
+        display: none;
+    }
+</style>
     <!-- end slider section -->
     <!-- wallet -->
     <div class="wallet">
@@ -117,28 +127,28 @@
             <div class="row">
                 <div class="col-lg-3 col-sm-6">
                     <div id="wa_hover" class="wallet_box text_align_center">
-                        <i><img src="images/wa1.svg" alt="#"/></i>
+                        <i><img src="images/wa1.svg" alt="#" /></i>
                         <h3>ONLINE WALLET</h3>
                         <p>It is a long established fact that a reader will be distracted by </p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div id="wa_hover" class="wallet_box text_align_center">
-                        <i><img src="images/wa2.svg" alt="#"/></i>
+                        <i><img src="images/wa2.svg" alt="#" /></i>
                         <h3>SEND COINS</h3>
                         <p>It is a long established fact that a reader will be distracted by </p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div id="wa_hover" class="wallet_box text_align_center">
-                        <i><img src="images/wa3.svg" alt="#"/></i>
+                        <i><img src="images/wa3.svg" alt="#" /></i>
                         <h3>MOBILE APP </h3>
                         <p>It is a long established fact that a reader will be distracted by </p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div id="wa_hover" class="wallet_box text_align_center">
-                        <i><img src="images/wa4.svg" alt="#"/></i>
+                        <i><img src="images/wa4.svg" alt="#" /></i>
                         <h3>COIN MINING</h3>
                         <p>It is a long established fact that a reader will be distracted by </p>
                     </div>
@@ -152,28 +162,35 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="about_border">
+                    <div class="about_border" style="background-color: #f6bc1f;">
                         <div class="row">
                             <div class="col-md-6">
-                                <div class="titlepage text_align_left">
-                                    <h2>About Us</h2>
-                                </div>
+                               
                                 <div class="about_text">
-                                    <p>Discover the power of the stock market and trading with Global Tek Financial Services. From expert investment strategies to personalized trading guidance, we empower you to navigate the financial markets with confidence. Maximize your potential for wealth creation and financial success with our comprehensive suite of trading solutions. Join us today and embark on your journey to financial independence.</p>
+                                    <div class="titlepage ">
+                                        <h2 style="color: blue;">About Us</h2>
+                                    </div>
+                                    <p style="color: blue;font-size: 25px;">Discover the power of the stock market and trading with Global Tek Financial
+                                        Services. From expert investment strategies to personalized trading guidance, we
+                                        empower you to navigate the financial markets with confidence. Maximize your
+                                        potential for wealth creation and financial success with our comprehensive suite
+                                        of trading solutions. Join us today and embark on your journey to financial
+                                        independence.</p>
                                     <a class="read_more" href="about.html">Read More</a>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="about_img">
-                                    <figure><img class="img_responsive" src="images/WhatsApp-Image-2023-05-23-at-14.04.02.png" alt="#" /></figure>
-                                </div>  
+                                    <figure><img class="img_responsive"
+                                            src="images/WhatsApp-Image-2023-05-23-at-14.04.02.png" alt="#" /></figure>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    </div>
-                    </div>
-                    </div>
-                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- end about -->
     <!-- graf -->
     <div class="graf">
@@ -182,23 +199,29 @@
                 <div class="col-md-12">
                     <ul class="nav nav-tabs md-tabs graf_tab" id="myTabMD" role="tablist">
                         <li>
-                            <a class="nav-link active" id="home-tab-md" data-toggle="tab" href="#tab1" role="tab" aria-controls="home-md" aria-selected="true">Bitcoin(BTC)</a>
+                            <a class="nav-link active" id="home-tab-md" data-toggle="tab" href="#tab1" role="tab"
+                                aria-controls="home-md" aria-selected="true">Bitcoin(BTC)</a>
                         </li>
                         <li>
-                            <a class="nav-link" id="profile-tab-md" data-toggle="tab" href="#tab2" role="tab" aria-controls="profile-md" aria-selected="false">Bitcoin Cash(BCH)</a>
+                            <a class="nav-link" id="profile-tab-md" data-toggle="tab" href="#tab2" role="tab"
+                                aria-controls="profile-md" aria-selected="false">Bitcoin Cash(BCH)</a>
                         </li>
                         <li>
-                            <a class="nav-link" id="contact-tab-md" data-toggle="tab" href="#tab3" role="tab" aria-controls="contact-md" aria-selected="false">Bitcoin Lite(LTC)</a>
+                            <a class="nav-link" id="contact-tab-md" data-toggle="tab" href="#tab3" role="tab"
+                                aria-controls="contact-md" aria-selected="false">Bitcoin Lite(LTC)</a>
                         </li>
                         <li>
-                            <a class="nav-link" id="contact-tab-md" data-toggle="tab" href="#tab4" role="tab" aria-controls="contact-md" aria-selected="false">Bitcoin Ethereum(ETH)</a>
+                            <a class="nav-link" id="contact-tab-md" data-toggle="tab" href="#tab4" role="tab"
+                                aria-controls="contact-md" aria-selected="false">Bitcoin Ethereum(ETH)</a>
                         </li>
                         <li>
-                            <a class="nav-link" id="contact-tab-md" data-toggle="tab" href="#tab5" role="tab" aria-controls="contact-md" aria-selected="false">Bitcoin Ripple(XRP)</a>
+                            <a class="nav-link" id="contact-tab-md" data-toggle="tab" href="#tab5" role="tab"
+                                aria-controls="contact-md" aria-selected="false">Bitcoin Ripple(XRP)</a>
                         </li>
                     </ul>
                     <div class="tab-content card  graf_content" id="myTabContentMD">
-                        <div class="tab-pane fade show active padi" id="tab1" role="tabpanel" aria-labelledby="home-tab-md">
+                        <div class="tab-pane fade show active padi" id="tab1" role="tabpanel"
+                            aria-labelledby="home-tab-md">
                             <div class="row">
                                 <div class="col-md-2 col-sm-4">
                                     <div class="usd text_align_center">
@@ -243,8 +266,10 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="growth text_align_center">
-                                            <h3>LiveTrades <span style="color: #face34;" class="pa_ri">USD 123456.09</span></h3>
-                                            <figure><img class="img_responsive" src="images/graf2.jpg" alt="#" /></figure>
+                                            <h3>LiveTrades <span style="color: #face34;" class="pa_ri">USD
+                                                    123456.09</span></h3>
+                                            <figure><img class="img_responsive" src="images/graf2.jpg" alt="#" />
+                                            </figure>
                                         </div>
                                     </div>
                                 </div>
@@ -293,10 +318,12 @@
                                             </figure>
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
+                                    <div class="col-md-6" > 
                                         <div class="growth text_align_center">
-                                            <h3>LiveTrades <span style="color: #face34;" class="pa_ri">USD 123456.09</span></h3>
-                                            <figure><img class="img_responsive" src="images/graf2.jpg" alt="#" /></figure>
+                                            <h3>LiveTrades <span style="color: #face34;" class="pa_ri">USD
+                                                    123456.09</span></h3>
+                                            <figure><img class="img_responsive" src="images/graf2.jpg" alt="#" />
+                                            </figure>
                                         </div>
                                     </div>
                                 </div>
@@ -345,10 +372,12 @@
                                             </figure>
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
+                                    <div class="col-md-6" style="background-color: #08b700 !important;">
                                         <div class="growth text_align_center">
-                                            <h3>LiveTrades <span style="color: #face34;" class="pa_ri">USD 123456.09</span></h3>
-                                            <figure><img class="img_responsive" src="images/graf2.jpg" alt="#" /></figure>
+                                            <h3>LiveTrades <span style="color: #face34;" class="pa_ri">USD
+                                                    123456.09</span></h3>
+                                            <figure><img class="img_responsive" src="images/graf2.jpg" alt="#" />
+                                            </figure>
                                         </div>
                                     </div>
                                 </div>
@@ -399,8 +428,10 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="growth text_align_center">
-                                            <h3>LiveTrades <span style="color: #face34;" class="pa_ri">USD 123456.09</span></h3>
-                                            <figure><img class="img_responsive" src="images/graf2.jpg" alt="#" /></figure>
+                                            <h3>LiveTrades <span style="color: #face34;" class="pa_ri">USD
+                                                    123456.09</span></h3>
+                                            <figure><img class="img_responsive" src="images/graf2.jpg" alt="#" />
+                                            </figure>
                                         </div>
                                     </div>
                                 </div>
@@ -451,8 +482,10 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="growth text_align_center">
-                                            <h3>LiveTrades <span style="color: #face34;" class="pa_ri">USD 123456.09</span></h3>
-                                            <figure><img class="img_responsive" src="images/graf2.jpg" alt="#" /></figure>
+                                            <h3>LiveTrades <span style="color: #face34;" class="pa_ri">USD
+                                                    123456.09</span></h3>
+                                            <figure><img class="img_responsive" src="images/graf2.jpg" alt="#" />
+                                            </figure>
                                         </div>
                                     </div>
                                 </div>
@@ -464,6 +497,14 @@
         </div>
     </div>
     <!-- end graf -->
+    <style>
+        #tab1 > div.graf_bootom > div > div:nth-child(2){
+            background-color: #08b700;
+        }
+        #tab1 > div.graf_bootom > div > div:nth-child(1){
+            background-color: #f172c2;
+        }
+    </style>
     <!-- testimonial -->
     <div class="testimonial">
         <div class="container-fluid">
@@ -492,7 +533,7 @@
                                                     <div class="row">
                                                         <div class="col-md-3">
                                                             <div class="testomoniam_text text_align_center">
-                                                                <i><img src="images/clint.jpg" alt="#"/></i>
+                                                                <i><img src="images/clint.jpg" alt="#" /></i>
                                                                 <h3>MorGan Den</h3>
                                                                 <span>Bitcoin</span>
                                                                 <img src="images/icon.png" alt="#" />
@@ -500,7 +541,14 @@
                                                         </div>
                                                         <div class="col-md-9">
                                                             <div class="testomoniam_text text_align_left">
-                                                                <p>more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and webmore-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and webmore-or-less normal distribution of</p>
+                                                                <p>more-or-less normal distribution of letters, as
+                                                                    opposed to using 'Content here, content here',
+                                                                    making it look like readable English. Many desktop
+                                                                    publishing packages and webmore-or-less normal
+                                                                    distribution of letters, as opposed to using
+                                                                    'Content here, content here', making it look like
+                                                                    readable English. Many desktop publishing packages
+                                                                    and webmore-or-less normal distribution of</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -513,7 +561,7 @@
                                                     <div class="row">
                                                         <div class="col-md-3">
                                                             <div class="testomoniam_text text_align_center">
-                                                                <i><img src="images/clint.jpg" alt="#"/></i>
+                                                                <i><img src="images/clint.jpg" alt="#" /></i>
                                                                 <h3>MorGan Den</h3>
                                                                 <span>Bitcoin</span>
                                                                 <img src="images/icon.png" alt="#" />
@@ -521,7 +569,14 @@
                                                         </div>
                                                         <div class="col-md-9">
                                                             <div class="testomoniam_text text_align_left">
-                                                                <p>more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and webmore-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and webmore-or-less normal distribution of</p>
+                                                                <p>more-or-less normal distribution of letters, as
+                                                                    opposed to using 'Content here, content here',
+                                                                    making it look like readable English. Many desktop
+                                                                    publishing packages and webmore-or-less normal
+                                                                    distribution of letters, as opposed to using
+                                                                    'Content here, content here', making it look like
+                                                                    readable English. Many desktop publishing packages
+                                                                    and webmore-or-less normal distribution of</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -534,7 +589,7 @@
                                                     <div class="row">
                                                         <div class="col-md-3">
                                                             <div class="testomoniam_text text_align_center">
-                                                                <i><img src="images/clint.jpg" alt="#"/></i>
+                                                                <i><img src="images/clint.jpg" alt="#" /></i>
                                                                 <h3>MorGan Den</h3>
                                                                 <span>Bitcoin</span>
                                                                 <img src="images/icon.png" alt="#" />
@@ -542,7 +597,14 @@
                                                         </div>
                                                         <div class="col-md-9">
                                                             <div class="testomoniam_text text_align_left">
-                                                                <p>more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and webmore-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and webmore-or-less normal distribution of</p>
+                                                                <p>more-or-less normal distribution of letters, as
+                                                                    opposed to using 'Content here, content here',
+                                                                    making it look like readable English. Many desktop
+                                                                    publishing packages and webmore-or-less normal
+                                                                    distribution of letters, as opposed to using
+                                                                    'Content here, content here', making it look like
+                                                                    readable English. Many desktop publishing packages
+                                                                    and webmore-or-less normal distribution of</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -580,8 +642,8 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="works_vedio">
-                        <video style="height: 60%; width:100%; object-fit: cover" src="media/88697-606080045_tiny.mp4" loop=""
-						muted="" autoplay=""></video>
+                        <video style="height: 60%; width:100%; object-fit: cover" src="media/88697-606080045_tiny.mp4"
+                            loop="" muted="" autoplay=""></video>
                     </div>
                 </div>
             </div>
@@ -626,7 +688,7 @@
         </div>
     </div>
     <!-- end contact -->
-     <footer>
+    <footer>
         <div class="footer">
             <div class="container">
                 <div class="row">
@@ -634,83 +696,96 @@
                         <a class="logo_bottom" href="index.html">GTFS</a>
                     </div>
                     <div class="col-md-3 col-sm-6 col-lg-3">
-                  <div class="Informa conta ">
-                     <h3>Contact Us</h3>
-                     <ul>
-                        <li> <a href="Javascript:void(0) "> <i class="fa fa-map-marker " aria-hidden="true "></i> Location
-                           </a>
-                        </li>
-                        <li> <a href="Javascript:void(0) "><i class="fa fa-phone " aria-hidden="true "></i> Call +01 1234567890
-                           </a>
-                        </li>
-                        <li> <a href="Javascript:void(0) "> <i class="fa fa-envelope " aria-hidden="true "></i> demo@gmail.com
-                           </a>
-                        </li>
-                        
-                     </ul>
-                     <ul class="social_icon text_align_right d_none">
-                        <li> <a href="Javascript:void(0)"><i class="fa fa-facebook-f"></i></a></li>
-                        <li> <a href="Javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
-                        <li> <a href="Javascript:void(0)"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                        <li> <a href="Javascript:void(0)"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                        <li> <a href="Javascript:void(0)"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-                        </ul>
-                     
-                        
-                    
-                  </div>
-               </div>
-               <div class="col-md-3 col-sm-6 ">
+                        <div class="Informa conta ">
+                            <h3>Contact Us</h3>
+                            <ul>
+                                <li> <a href="Javascript:void(0) "> <i class="fa fa-map-marker "
+                                            aria-hidden="true "></i> Location
+                                    </a>
+                                </li>
+                                <li> <a href="Javascript:void(0) "><i class="fa fa-phone " aria-hidden="true "></i> Call
+                                        +01 1234567890
+                                    </a>
+                                </li>
+                                <li> <a href="Javascript:void(0) "> <i class="fa fa-envelope " aria-hidden="true "></i>
+                                        demo@gmail.com
+                                    </a>
+                                </li>
+
+                            </ul>
+                            <ul class="social_icon d_none">
+                                <li> <a href="Javascript:void(0)"><i class="fa fa-facebook-f"></i></a></li>
+                                <li> <a href="Javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
+                                <li> <a href="Javascript:void(0)"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                </li>
+                                <li> <a href="Javascript:void(0)"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                </li>
+                                <li> <a href="Javascript:void(0)"><i class="fa fa-youtube-play"
+                                            aria-hidden="true"></i></a></li>
+                            </ul>
+
+
+
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 ">
                         <div class="Informa helpful">
                             <div class="col-lg-6 col-md-6 mb-5">
                                 <h3>Quick Links</h3>
                                 <div class="d-flex flex-column justify-content-start">
-                                    <a class="text-white mb-2" href="index.html"><i class="fa fa-angle-right mr-2"></i>Home</a>
-                                    <a class="text-white mb-2" href="about.html"><i class="fa fa-angle-right mr-2"></i>About Us</a>
-                                    <a class="text-white mb-2" href="services.html"><i class="fa fa-angle-right mr-2"></i>Services</a>
-                                    <a class="text-white" href="contact.html"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
+                                    <a class="text-white mb-2" href="index.html"><i
+                                            class="fa fa-angle-right mr-2"></i>Home</a>
+                                    <a class="text-white mb-2" href="about.html"><i
+                                            class="fa fa-angle-right mr-2"></i>About Us</a>
+                                    <a class="text-white mb-2" href="services.html"><i
+                                            class="fa fa-angle-right mr-2"></i>Services</a>
+                                    <a class="text-white" href="contact.html"><i
+                                            class="fa fa-angle-right mr-2"></i>Contact Us</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6" ">
-                  <div class="Informa ">
+                    <div class="col-md-3 col-sm-6" >
+                  <div class=" Informa ">
                      <h3>Populer Links</h3>
-                     <div class="d-flex flex-column justify-content-start">
+                     <div class=" d-flex flex-column justify-content-start">
                         <a class="text-white mb-2" href="index.html"><i class="fa fa-angle-right mr-2"></i>Home</a>
                         <a class="text-white mb-2" href="about.html"><i class="fa fa-angle-right mr-2"></i>About Us</a>
-                        <a class="text-white mb-2" href="services.html"><i class="fa fa-angle-right mr-2"></i>Services</a>
+                        <a class="text-white mb-2" href="services.html"><i
+                                class="fa fa-angle-right mr-2"></i>Services</a>
                         <a class="text-white" href="contact.html"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
                     </div>
-                  </div>
-               </div>
-               <div class="col-md-3 col-sm-6 ">
-                  <div class="Informa ">
-                     <h3>Newsletter</h3>
-                     <form class="newslatter_form ">
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 ">
+                <div class="Informa ">
+                    <h3>Newsletter</h3>
+                    <form class="newslatter_form ">
                         <input class="ente " placeholder="Enter your email " type="text " name="Enter your email ">
                         <button class="subs_btn ">Subscribe</button>
-                     </form>
-                  </div>
-               </div>
+                    </form>
+                </div>
             </div>
-            <div class="copyright text_align_center ">
-               <div class="container ">
-                  <div class="row ">
-                     <div class="col-md-12 ">
-                        <p>© 2024 All Rights Reserved. Design by   <a href="https://www.thepatternscompany.com/ "> The Patterns Company</a></p>
-                     </div>
-                  </div>
-               </div>
+        </div>
+        <div class="copyright text_align_center ">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-md-12 ">
+                        <p>© 2024 All Rights Reserved. Design by <a href="https://www.thepatternscompany.com/ "> The
+                                Patterns Company</a></p>
+                    </div>
+                </div>
             </div>
-         </div>
-      </footer>
-      <!-- end footer -->
-      <!-- end footer -->
-      <!-- Javascript files-->
-      <script src="js/jquery.min.js "></script>
-      <script src="js/bootstrap.bundle.min.js "></script>
-      <script src="js/jquery-3.0.0.min.js "></script>
-      <script src="js/custom.js "></script>
-   </body>
+        </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+    <!-- end footer -->
+    <!-- Javascript files-->
+    <script src="js/jquery.min.js "></script>
+    <script src="js/bootstrap.bundle.min.js "></script>
+    <script src="js/jquery-3.0.0.min.js "></script>
+    <script src="js/custom.js "></script>
+</body>
+
 </html>
