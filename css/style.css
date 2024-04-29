@@ -218,7 +218,7 @@ button {
 }
 
 .container {
-     max-width: 1170px;
+     max-width: 90%;
 }
 
 
@@ -258,7 +258,7 @@ header {
      background: #0f132d;
      width: 100%;
      padding: 22px 30px;
-     height: 96px;
+     height: auto;
      z-index: 9;
 }
 
@@ -268,7 +268,7 @@ header {
      font-weight: bold;
 }
 .lo{
-     height: 70px;
+     /* height: 70px; */
      width:150px;
 }
 
