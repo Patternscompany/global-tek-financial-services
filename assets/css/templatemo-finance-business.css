@@ -1110,8 +1110,9 @@ ul.slick-dots {
 }
 
 .contact-us {
-	background-color: #f7f7f7;
+	background-color: #0B5B72;
 	padding: 140px 0px;
+	
 }
 
 .contact-us .contact-form {
@@ -1158,7 +1159,7 @@ ul.slick-dots {
 	min-height: 120px;
 	display: inline-block;
 	padding: 15px;
-	color: #6a6a6a;
+	color: dark;
 	font-size: 13px;
 	text-transform: none;
 	box-shadow: none;
@@ -1206,9 +1207,9 @@ ul.slick-dots {
 }
 
 .contact-us .contact-form button.filled-button {
-	background-color: #0B5B72
+	background-color: white
 	;
-	color: #fff;
+	color:dark;
 	border: none;
 	font-size: 13px;
 	text-transform: uppercase;
