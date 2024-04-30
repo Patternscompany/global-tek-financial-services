@@ -69,14 +69,15 @@ a.border-button:hover {
 
 .section-heading {
 	text-align: center;
-	margin-bottom: 80px;
+	padding-top: 20px;
+	margin-bottom: 20px;
 
 }
 
 .section-heading h2 {
 	font-size: 36px;
 	font-weight: 600;
-	color: #fff;
+	color: black;
 }
 
 .section-heading em {
@@ -706,12 +707,16 @@ ul.slick-dots {
 /* Services */
 
 .services {
-	margin-top: 140px;
+	margin-top: 40px;
+	padding-bottom: 2rem;
 }
-
+.service-item{
+	border: 2px solid yellow;
+}
 .service-item img {
 	width: 100%;
 	overflow: hidden;
+	
 }
 
 .service-item .down-content {
@@ -733,7 +738,9 @@ ul.slick-dots {
 .services1 {
 	margin-top: 140px;
 }
-
+.service-item1{
+	border: 2px solid navy;
+}
 .service-item1 img {
 	width: 100%;
 	overflow: hidden;
@@ -760,7 +767,9 @@ ul.slick-dots {
 .services2 {
 	margin-top: 140px;
 }
-
+.service-item2{
+	border: 2px solid green;
+}
 .service-item2 img {
 	width: 100%;
 	overflow: hidden;
@@ -787,7 +796,9 @@ ul.slick-dots {
 .services3 {
 	margin-top: 140px;
 }
-
+.service-item3{
+	border: 2px solid grey;
+}
 .service-item3 img {
 	width: 100%;
 	overflow: hidden;
@@ -814,7 +825,9 @@ ul.slick-dots {
 .services4 {
 	margin-top: 140px;
 }
-
+.service-item4{
+	border: 2px solid #0B5B72;
+}
 .service-item4 img {
 	width: 100%;
 	overflow: hidden;
@@ -840,7 +853,9 @@ ul.slick-dots {
 .services5 {
 	margin-top: 140px;
 }
-
+.service-item5{
+	border: 2px solid brown;
+}
 .service-item5 img {
 	width: 100%;
 	overflow: hidden;
@@ -866,7 +881,9 @@ ul.slick-dots {
 .services6 {
 	margin-top: 140px;
 }
-
+.service-item6{
+	border: 2px solid grey;
+}
 .service-item6 img {
 	width: 100%;
 	overflow: hidden;
@@ -892,7 +909,9 @@ ul.slick-dots {
 .services7 {
 	margin-top: 140px;
 }
-
+.service-item7{
+	border: 2px solid greenyellow;
+}
 .service-item7 img {
 	width: 100%;
 	overflow: hidden;
@@ -911,13 +930,15 @@ ul.slick-dots {
 }
 
 .service-item7 .down-content p {
-	margin-bottom: 20px;
+	
 }
 /*s8 */
 .services8 {
 	margin-top: 140px;
 }
-
+.service-item8{
+	border: 2px solid black;
+}
 .service-item8 img {
 	width: 100%;
 	overflow: hidden;
@@ -1072,9 +1093,9 @@ ul.slick-dots {
 }
 
 .testimonials {
-	margin-top: 140px;
+	margin-top: 10px;
 	background-color: #f7f7f7;
-	padding: 140px 0px;
+	padding: 10px 0px;
 }
 .testimonial-item .inner-content {
 	text-align: center;
@@ -1135,7 +1156,7 @@ ul.slick-dots {
 }
 
 .callback-form {
-	margin-top: 140px;
+	margin-top: 10px;
 }
 
 .callback-form .contact-form {

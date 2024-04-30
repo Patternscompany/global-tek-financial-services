@@ -39,7 +39,7 @@ jQuery( document ).ready(function( $ ) {
                 dots: true,
                 items: 1,
                 margin: 30,
-                autoplay: false,
+                autoplay: true,
                 smartSpeed: 700,
                 autoplayTimeout: 6000,
                 responsive: {
@@ -144,3 +144,43 @@ jQuery( document ).ready(function( $ ) {
     })
  
 });
+
+
+//book appointment
+document.getElementById("contact").addEventListener("submit", function (event) {
+           event.preventDefault();
+
+           var fullName = document.getElementById("name").value;
+           var email = document.getElementById("email").value;
+           // var date = document.getElementById("date").value;
+
+           var number = document.getElementById("number").value;
+           // var message = document.getElementById("treatment").value;
+           var message= document.getElementById("message").value;
+           var contact = "+919573765396";
+
+           var encodedMessage = encodeURIComponent(
+               "Name: " +
+               fullName +
+               "\n" +
+               "Email: " +
+               email +
+               "\n" +
+               "Number: " +
+               number +
+               "\n" +
+           
+               "Message: " +
+              message
+             
+           );
+
+           // Mobile device, open WhatsApp
+           var whatsappLink = `https://wa.me/${contact}?text=${encodedMessage}`;
+           window.open(whatsappLink, "_blank");
+
+          
+           window.location.href = "thank-you.html";
+           document.getElementById("contact").reset();
+       });
+
