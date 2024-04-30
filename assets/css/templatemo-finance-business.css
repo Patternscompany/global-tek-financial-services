@@ -1,10 +1,4 @@
-/* 
 
-TemplateMo - Finance Business
-
-https://templatemo.com/tm-545-finance-business
-
-*/
 
 body {
   font-family: 'Poppins', sans-serif;
@@ -243,7 +237,7 @@ header {
 	z-index: 99999;
 	width: 100%;
 	background-color: transparent!important;
-	height: 80px;
+	height:auto;
 	-webkit-transition: all 0.3s ease-in-out 0s;
     -moz-transition: all 0.3s ease-in-out 0s;
     -o-transition: all 0.3s ease-in-out 0s;
@@ -269,8 +263,8 @@ header .navbar {
     transition: all .3s ease 0s;
 }
 .kk{
-	height: 100px;
-	width:100px
+	height: 150px;
+	width:150px;
 }
 .navbar .navbar-brand h2 em {
 	font-style: normal;
@@ -287,8 +281,8 @@ header .navbar {
 }
 .navbar .navbar-nav a.nav-link {
 	text-transform: capitalize;
-	font-size: 15px;
-	font-weight: 300;
+	font-size: 25px;
+	font-weight: 600;
 	letter-spacing: 0.5px;
 	color: #fff;
 	transition: all 0.5s;
@@ -299,7 +293,7 @@ header .navbar {
 .navbar .navbar-nav .nav-link.active,
 .navbar .navbar-nav .nav-link.show,
 .navbar .navbar-nav .show>.nav-link {
-	color: #0B5B72
+	color: white
 	;
 	border-bottom: 3px solid #0B5B72
 	;
@@ -315,7 +309,7 @@ header .navbar {
 	border-radius: 0px;
 	position: absolute;
 	right: 30px;
-	top: 20px;
+	top: 60px;
 }
 .navbar .navbar-toggler-icon:after {
 	content: '\f0c9';
@@ -848,7 +842,11 @@ ul.slick-dots {
 	margin: 25px auto 0px auto;
 }
 
-
+@media(min-width:1170px){
+	.container{
+		max-width:1500px !important;
+	}
+}
 
 
 /* Call Back Style */
@@ -1490,7 +1488,7 @@ footer .contact-form button.filled-button:hover {
 	#navbarResponsive {
 	    z-index: 99999;
 	    position: absolute;
-	    top: 80px;
+	    top: 100px;
 	    left: 0;
 	    width: 100%;
 	    text-align: center;
