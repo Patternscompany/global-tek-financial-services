@@ -765,12 +765,16 @@ ul.slick-dots {
 /* More Info */
 
 .more-info {
-	margin-top: 140px;
+	padding-bottom: 140px;
+	padding-top:140px;
+	background-color: #b3862f;
+	
 }
 
 .more-info .left-image img {
 	width: 100%;
 	overflow: hidden;
+	
 }
 
 .more-info .more-info-content {
