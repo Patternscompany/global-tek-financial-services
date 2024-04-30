@@ -266,6 +266,22 @@ header .navbar {
 	height: 150px;
 	width:150px;
 }
+.whatsapp {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 999;
+    animation: round 5s linear infinite;
+  }
+  
+  .whatsapp a i {
+    color: white;
+    font-size: 35px;
+    background-color: green;
+    border-radius: 50%;
+    padding: 10px;
+    animation: round 2s linear infinite;
+  }
 .navbar .navbar-brand h2 em {
 	font-style: normal;
 	font-size: 16px;
